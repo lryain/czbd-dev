@@ -1,0 +1,5 @@
+--cpu Cortex-M0 ".\arm_startup_nrf51.o" "project_nrf51822.o" "system_nrf51.o" "radio_tx.o" "nrf_gpio.o" "radio_config.o" "nrf_delay.o" "simple_uart.o" 
+--library_type=microlib --strict --scatter "radio_tx.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\radio_tx.map" -o radio_tx.axf

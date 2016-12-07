@@ -1,0 +1,5 @@
+-c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I..\project_nrf51\Basic\Include_H -I..\project_nrf51\Peripherals\boards -I..\project_nrf51\Basic\startup -I..\project_nrf51\Basic\Include_C\nrf_radio -I..\out 
+-I F:\Keil\ARM\RV31\INC 
+-I F:\Keil\ARM\CMSIS\Include 
+-I F:\Keil\ARM\Device\Nordic\nRF51822\Include 
+-o "radio_tx.o" --omf_browse "radio_tx.crf" --depend "radio_tx.d" "..\out\radio_tx.c"

@@ -1,0 +1,29 @@
+*** Creating Trace Output File 'radio_rx.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\arm_startup_nrf51.o"'
+### List of Objects: adding '"project_nrf51822.o"'
+### List of Objects: adding '"system_nrf51.o"'
+### List of Objects: adding '"radio_rx.o"'
+### List of Objects: adding '"pm.o"'
+### List of Objects: adding '"nrf_delay.o"'
+### List of Objects: adding '"nrf_gpio.o"'
+### List of Objects: adding '"radio_config.o"'
+### List of Objects: adding '"simple_uart.o"'
+### List of Objects: adding '"nrf_adc.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 ".\arm_startup_nrf51.o" "project_nrf51822.o" "system_nrf51.o" "radio_rx.o" "pm.o" "nrf_delay.o" "nrf_gpio.o" "radio_config.o" "simple_uart.o" "nrf_adc.o" 
+--library_type=microlib --strict --scatter "radio_rx.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\radio_rx.map" -o radio_rx.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'radio_rx.axf'
+### ADS-LD Command File: 'radio_rx.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'radio_rx.lnp', Handle=0x00000408
+### Writing '.lnp' file
+### ADS-LD Command file 'radio_rx.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

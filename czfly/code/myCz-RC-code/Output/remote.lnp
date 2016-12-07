@@ -1,0 +1,5 @@
+--cpu Cortex-M3 "..\output\startup_stm32f10x_md.o" "..\output\core_cm3.o" "..\output\system_stm32f10x.o" "..\output\misc.o" "..\output\stm32f10x_gpio.o" "..\output\stm32f10x_rcc.o" "..\output\stm32f10x_usart.o" "..\output\stm32f10x_tim.o" "..\output\main.o" "..\output\sys.o" "..\output\spi.o" "..\output\delay.o" "..\output\adc.o" "..\output\led.o" "..\output\nrf24l01.o" "..\output\stmflash.o" "..\output\tim.o" "..\output\display.o" "..\output\key.o" "..\output\usart.o" 
+--library_type=microlib --strict --scatter "..\Output\remote.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\remote.map" -o ..\Output\remote.axf
