@@ -1,0 +1,24 @@
+Creo Elements/Pro is running with Unicode string encoding.
+DUMMY - pro_set_input_devices_allowed
+DUMMY - putxyres
+pglSetStatus: Pgl Session Initialize
+DUMMY - putxyres
+check_exec_file_accessible_():  D:\Program Files\PTC\Creo Elements\Pro5.0\\x86e_win64\obj\SWConvert.exe accessible (INFO MESSAGE)
+browser_get_type_sysdep:  type = 1 (INFO MESSAGE)
+ProCmdSelBufferAttrSet():  Selection Buffer Attribute loaded 40 commands (INFO MESSAGE)
+uit_get_visual_style_low:  Style is PTC Wildfire 5 (INFO MESSAGE)
+dll_get_func_ptr_msgq:  OS error 127 while getting ptr to 'gGetProtocolVersion' in 'gPlug' (ORDER_DEBUG)
+store_pixel_outline:  Pixel outline should be round values! (ORDER_DEBUG)
+uit_get_visual_style_low:  Style is PTC Wildfire 5 (INFO MESSAGE)
+store_pixel_outline:  Pixel outline should be round values! (ORDER_DEBUG)
+pglSetStatus: PglWindowEndNoGraphics: Not in nographics mode.
+
+ run mode = 3
+pro_locate_colormap ()
+located color definition D:\Program Files\PTC\Creo Elements\Pro5.0\graphic-library\appearances\appearance.dmt
+pro_locate_colormap ()
+located color definition D:\Program Files\PTC\Creo Elements\Pro5.0\graphic-library\appearances\global.dmt
+PFSTMakeTypeString:  no zip found (INFO MESSAGE)
+store_pixel_outline:  Pixel outline should be round values! (ORDER_DEBUG)
+store_pixel_outline:  Pixel outline should be round values! (ORDER_DEBUG)
+pglSetStatus: Pgl Session Terminate
